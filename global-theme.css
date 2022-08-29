@@ -24,6 +24,10 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 	color: #bbb;
 }
 
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: #111;
+}
+
 .dropdown-menu {
 	background-color: #444;
 }
@@ -75,6 +79,12 @@ ul.dropdown-menu > li > a, .btn-link.logout_link {
 }
 .form-control:focus {
 	box-shadow: none;
+}
+
+/* Index */
+
+#id_develop_anywhere_details {
+	background-color: #222;
 }
 
 /* Console */
