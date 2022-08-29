@@ -60,3 +60,6 @@ ul.dropdown-menu > li > a, .btn-link.logout_link {
 tr.hoverable:hover {
 	background-color: #444;
 }
+#id_directory_listing_toolbar {
+	margin-top: 10px;
+}
