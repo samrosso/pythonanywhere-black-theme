@@ -12,6 +12,15 @@ body {
 .well {
 	background-color: #111;
 }
+.dropdown-menu {
+	background-color: #444;
+}
+ul.dropdown-menu > li > a, .btn-link.logout_link {
+	color: #eee !important;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .fullscreen-main-navbar button.btn-link:hover {
+	background-color: #666 !important;
+}
 
 /* Editor */
 
