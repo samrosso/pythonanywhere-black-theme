@@ -77,17 +77,22 @@ ul.dropdown-menu > li > a, .btn-link.logout_link {
 	box-shadow: none;
 }
 
+/* Console */
+
+#id_console_name {
+	color: #eee;
+}
+
 /* Editor */
 
-/* These 2 rules hide the console */
-/*
+/* These 2 rules hide the editor console :
+
 #id_ide_console {
 	display: none;
 }
 .splitter-bar.splitter-bar-horizontal.ui-state-default {
 	display: none;
-}
-*/
+} */
 
 .ui-widget-content {
 	border: 1px solid #000;
