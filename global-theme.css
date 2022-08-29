@@ -1,13 +1,20 @@
 /* PANEL */
 
 body {
-    background-color: #222;
-    color: #eee;
+	background-color: #222;
+	color: #eee;
 }
 #id_logo {
-  background-color: #eee;
-  border-radius: 5px;
-  padding: 2px;
+	background-color: #eee;
+	border-radius: 5px;
+	padding: 2px;
+}
+.primary-navbar .active a, .primary-navbar .active a:focus {
+	color: #139fd7;
+	background-color: transparent;
+}
+.fullscreen-main-navbar {
+	background-color: #222;
 }
 .well {
 	background-color: #111;
@@ -27,20 +34,13 @@ ul.dropdown-menu > li > a, .btn-link.logout_link {
 /* These 2 rules hide the console */
 /*
 #id_ide_console {
-    display: none;
+	display: none;
 }
 .splitter-bar.splitter-bar-horizontal.ui-state-default {
-    display: none;
+	display: none;
 }
 */
 
-.primary-navbar .active a {
-	color: #139fd7;
-	background-color: transparent;
-}
-.fullscreen-main-navbar {
-	background-color: #222;
-}
 .ui-widget-content {
 	border: 1px solid #000;
 	background: #000;
