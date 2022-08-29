@@ -1,0 +1,43 @@
+/* PANEL */
+
+body {
+    background-color: #222;
+    color: #eee;
+}
+#id_logo {
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 2px;
+}
+.well {
+	background-color: #111;
+}
+
+/* Editor */
+
+#id_ide_console {
+    display: none;
+}
+.splitter-bar.splitter-bar-horizontal.ui-state-default {
+    display: none;
+}
+.primary-navbar .active a {
+	color: #139fd7;
+	background-color: transparent;
+}
+.fullscreen-main-navbar {
+	background-color: #222;
+}
+.ui-widget-content {
+	border: 1px solid #000;
+	background: #000;
+}
+
+/* Files */
+
+.directory_listing_table i.pale {
+	color: #fff;
+}
+tr.hoverable:hover {
+	background-color: #444;
+}
