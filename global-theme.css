@@ -37,6 +37,12 @@ body {
 	background: #000;
 }
 
+/* Dashboard */
+
+.dashboard-panel__headline a {
+	color: #bbb;
+}
+
 /* Files */
 
 .directory_listing_table i.pale {
