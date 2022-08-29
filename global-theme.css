@@ -24,8 +24,11 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 	color: #bbb;
 }
 
-.nav > li > a:hover, .nav > li > a:focus {
+.nav.nav-pills > li > a:hover, .nav.nav-pills > li > a:focus {
 	background-color: #111;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+	background-color: #337ab7 !important;
 }
 
 .dropdown-menu {
