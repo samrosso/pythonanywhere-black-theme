@@ -1,24 +1,29 @@
 /* Global */
 
 body {
-	background-color: #222;
-	color: #eee;
+    background-color: #222;
+    color: #eee;
 }
 #id_logo {
-	background-color: #eee;
 	border-radius: 5px;
 	padding: 2px;
-}
-.primary-navbar .active a, .primary-navbar .active a:focus {
-	color: #139fd7;
-	background-color: transparent;
-}
-.fullscreen-main-navbar {
-	background-color: #222;
+	filter: grayscale(100%) brightness(50%) invert(100%);
+	image-rendering: smooth;
 }
 .well {
 	background-color: #111;
 }
+.popover {
+	background-color: #444;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
+	color: #ddd;
+}
+.text-muted {
+	color: #bbb;
+}
+
 .dropdown-menu {
 	background-color: #444;
 }
@@ -27,6 +32,49 @@ ul.dropdown-menu > li > a, .btn-link.logout_link {
 }
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .fullscreen-main-navbar button.btn-link:hover {
 	background-color: #666 !important;
+}
+
+.btn, .btn.btn-default {
+	border: 0 !important;
+	background-color: #666;
+	color: #fff !important;
+}
+.btn:hover, .btn.btn-default:hover {
+	background-color: #444 !important;
+}
+.btn.btn-primary:hover {
+	background-color: #0c6488 !important;
+}
+.btn.disabled:hover, .btn[disabled]:hover, fieldset[disabled] .btn:hover {
+	background-color: #666 !important;
+}
+.btn.btn-danger {
+	background-color: #a00;
+}
+.btn.btn-danger:hover {
+	background-color: #800 !important;
+}
+.btn-warning {
+	background-color: #a60 !important;
+}
+.btn-warning:hover {
+	background-color: #840 !important;
+}
+.btn-success {
+	background-color: #0a0 !important;
+}
+.btn-success:hover {
+	background-color: #080 !important;
+}
+
+.form-control {
+	background-color: #333;
+	color: #eee;
+	border: 0;
+    box-shadow: none;
+}
+.form-control:focus {
+	box-shadow: none;
 }
 
 /* Editor */
@@ -49,7 +97,7 @@ ul.dropdown-menu > li > a, .btn-link.logout_link {
 /* Dashboard */
 
 .dashboard-panel__headline a {
-	color: #bbb;
+	color: #fff;
 }
 
 /* Files */
