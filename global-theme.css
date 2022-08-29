@@ -15,12 +15,16 @@ body {
 
 /* Editor */
 
+/* These 2 rules hide the console */
+/*
 #id_ide_console {
     display: none;
 }
 .splitter-bar.splitter-bar-horizontal.ui-state-default {
     display: none;
 }
+*/
+
 .primary-navbar .active a {
 	color: #139fd7;
 	background-color: transparent;
