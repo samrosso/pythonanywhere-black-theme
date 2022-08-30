@@ -24,6 +24,14 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 	color: #bbb;
 }
 
+.navbar.navbar-default {
+	background-color: #222 !important;
+}
+.primary-navbar .active a {
+	background-color: transparent !important;
+	color: #eee;
+}
+
 .nav.nav-pills > li > a:hover, .nav.nav-pills > li > a:focus {
 	background-color: #111;
 }
